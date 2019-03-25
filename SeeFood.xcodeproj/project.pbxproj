@@ -12,6 +12,7 @@
 		460A723A2245904B003B4C0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 460A72382245904B003B4C0C /* Main.storyboard */; };
 		460A723C2245904D003B4C0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 460A723B2245904D003B4C0C /* Assets.xcassets */; };
 		460A723F2245904D003B4C0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 460A723D2245904D003B4C0C /* LaunchScreen.storyboard */; };
+		460A724722459285003B4C0C /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 460A724622459284003B4C0C /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		460A723B2245904D003B4C0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		460A723E2245904D003B4C0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		460A72402245904D003B4C0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		460A724622459284003B4C0C /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				460A723B2245904D003B4C0C /* Assets.xcassets */,
 				460A723D2245904D003B4C0C /* LaunchScreen.storyboard */,
 				460A72402245904D003B4C0C /* Info.plist */,
+				460A724622459284003B4C0C /* Inceptionv3.mlmodel */,
 			);
 			path = SeeFood;
 			sourceTree = "<group>";
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				460A72372245904B003B4C0C /* ViewController.swift in Sources */,
+				460A724722459285003B4C0C /* Inceptionv3.mlmodel in Sources */,
 				460A72352245904B003B4C0C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,11 +289,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3F2Q7FQ47R;
 				INFOPLIST_FILE = SeeFood/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = IC.SeeFood;
+				PRODUCT_BUNDLE_IDENTIFIER = IC.HotDog;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -303,11 +308,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3F2Q7FQ47R;
 				INFOPLIST_FILE = SeeFood/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = IC.SeeFood;
+				PRODUCT_BUNDLE_IDENTIFIER = IC.HotDog;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
